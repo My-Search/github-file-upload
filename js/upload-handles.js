@@ -56,7 +56,7 @@ let viewMap = {
                 that.appendResourceUrl(initUrl,cdnUrl);
             } else {
                 // 图片回显
-                that.msg(`<a target="_bank" href="https://baolian.publicvm.com/" style="opacity: 0.9;">((*・∀・）ゞ♪推广: 宝连机场-高性价比/速度快/稳定/低延迟/退款保障</a>`,true)
+                // that.msg(`<a target="_bank" href="https://baolian.publicvm.com/" style="opacity: 0.9;">((*・∀・）ゞ♪推广: XXX</a>`,true)
                 that.placeResource(`<img src="${cdnUrl}" />`)
             }
         }, function () {
